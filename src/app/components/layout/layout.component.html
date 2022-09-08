@@ -1,3 +1,10 @@
-<div class='container'>
-  <i nz-icon nzType="ng-zorro:cat" nzTheme="outline" style='font-size: 25px'></i>
+<div class="container" (mousemove)="onMouseMove($event)">
+  <i
+    *ngFor='let iconConfig of iconConfigs'
+    nz-icon
+    [nzType]="iconConfig.icon"
+    nzTheme="outline"
+    appBackgroundIcon
+    [config]='iconConfig'
+  ></i>
 </div>

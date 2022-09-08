@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
-import { NgZorroModule } from './ng-zorro.module'
+import { NgZorroModule } from './ng-zorro.module';
+import { BackgroundIconDirective } from './directives/background-icon.directive'
 
 @NgModule({
-  declarations: [],
+  declarations: [BackgroundIconDirective],
   imports: [
     ReactiveFormsModule,
     FormsModule,
@@ -17,7 +18,8 @@ import { NgZorroModule } from './ng-zorro.module'
     ReactiveFormsModule,
     RouterModule,
     FormsModule,
-    NgZorroModule
+    NgZorroModule,
+    BackgroundIconDirective
   ],
   providers: []
 })

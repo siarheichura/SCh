@@ -1,6 +1,8 @@
 :host {
   .container {
     height: 100vh;
+    position: relative;
+    overflow: hidden;
     background-color: var(--dark-color);
   }
 }
