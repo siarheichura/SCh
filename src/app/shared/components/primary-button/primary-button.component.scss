@@ -1,0 +1,17 @@
+:host {
+  button {
+    padding: 7px 15px;
+    border: none;
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    font-family: var(--spartan-font);
+    font-weight: 700;
+    letter-spacing: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background: #d81010;
+    }
+  }
+}

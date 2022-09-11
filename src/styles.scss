@@ -5,6 +5,10 @@
   --light-color: #ebebeb;
   --button-color: #e24728;
   --nav-color: #b0b2c3;
+  --secondary-color: #e24728;
+
+  --spartan-font: 'League Spartan', sans-serif;
+  --lato-font: 'Lato', sans-serif;
 }
 
 * {
@@ -13,7 +17,6 @@
   box-sizing: border-box;
 }
 
-// FONTS:
-// Spartan
-// Raleway, Helvetica, Arial, sans-serif
-// Lato, Helvetica, Arial, sans-serif
+p {
+  margin-bottom: 0;
+}
