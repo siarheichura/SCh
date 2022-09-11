@@ -1,5 +1,16 @@
 <div class="container" (mousemove)="onMouseMove($event)">
+  <div class="layout-container">
+    <header>HEADER</header>
+
+    <main>
+      <app-main></app-main>
+    </main>
+
+    <footer></footer>
+  </div>
+
   <i
+    class="background-icon"
     *ngFor='let iconConfig of iconConfigs'
     nz-icon
     [nzType]="iconConfig.icon"
