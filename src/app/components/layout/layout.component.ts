@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core'
 
 import { IconService } from '@services/icon.service'
-import { ICON_CONFIGS } from '@shared/constants/icons.constants'
+import { BACKGROUND_ICON_CONFIGS } from '@shared/constants/icons.constant'
 import { IconConfigI } from '@shared/interfaces/Icon.interface'
 
 @Component({
@@ -11,7 +11,7 @@ import { IconConfigI } from '@shared/interfaces/Icon.interface'
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class LayoutComponent implements OnInit {
-  iconConfigs: IconConfigI[] = ICON_CONFIGS
+  iconConfigs: IconConfigI[] = BACKGROUND_ICON_CONFIGS
 
   constructor(private iconService: IconService) {}
 

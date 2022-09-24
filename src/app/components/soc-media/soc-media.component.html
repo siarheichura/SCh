@@ -1,0 +1,6 @@
+<i
+  *ngFor="let icon of icons"
+  nz-icon
+  [nzType]="icon.name"
+  (click)="onIconClick(icon.url)"
+></i>

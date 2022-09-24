@@ -15,4 +15,5 @@ export interface IconConfigI {
 export interface IconSvgI {
   name: string
   svg: string
+  url?: string
 }
