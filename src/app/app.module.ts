@@ -7,10 +7,11 @@ import { SharedModule } from '@shared/shared.module'
 
 import { AppComponent } from './app.component'
 import { LayoutComponent } from '@components/layout/layout.component';
-import { MainComponent } from '@components/_pages/main/main.component'
+import { MainComponent } from '@components/_pages/main/main.component';
+import { SocMediaComponent } from './components/soc-media/soc-media.component'
 
 @NgModule({
-  declarations: [AppComponent, LayoutComponent, MainComponent],
+  declarations: [AppComponent, LayoutComponent, MainComponent, SocMediaComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

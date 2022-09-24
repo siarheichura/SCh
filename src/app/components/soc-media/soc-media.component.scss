@@ -1,0 +1,21 @@
+:host {
+  position: absolute;
+  top: calc(50% - 70px);
+  right: 3%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  i {
+    font-size: 30px;
+    color: var(--nav-color);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      color: #ffffff;
+      transform: translateY(-2px);
+    }
+  }
+}
