@@ -12,7 +12,7 @@ export const BACKGROUND_ICON_CONFIGS: IconConfigI[] = [
   { icon: 'ng-zorro:umbrella', top: '33%', left: '29%', rotate: '15deg', xx: 1.2, xy: -0.4 },
   { icon: 'ng-zorro:sun', top: '86%', left: '26%', rotate: '20deg', xx: -1.3, xy: -0.4 },
   { icon: 'ng-zorro:skull', top: '9%', left: '91%', rotate: '-15deg', xx: -0.1, xy: 1.4 },
-  { icon: 'ng-zorro:ship', top: '48%', left: '95%', rotate: '37deg', xx: 1.1, xy: -0.4 },
+  { icon: 'ng-zorro:ship', top: '30%', left: '95%', rotate: '37deg', xx: 1.1, xy: -0.4 },
   { icon: 'ng-zorro:man', top: '97%', left: '76%', rotate: '-21deg', xx: -0.1, xy: 1.4 },
   { icon: 'ng-zorro:light', top: '57%', left: '3%', rotate: '5deg', xx: -0.1, xy: 1.4 },
   { icon: 'ng-zorro:heart', top: '2%', left: '27%', rotate: '-5deg', xx: 0.9, xy: -1.4 },
