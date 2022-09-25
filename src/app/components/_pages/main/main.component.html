@@ -1,8 +1,20 @@
 <div class="info">
   <p class="info_hey">Hey there,</p>
   <p class="info_name">I'm Sergei Chura</p>
-  <div class="info_job">
-    a <span>Full-stack Software Engineer</span> working with
+  <div class="info_info">
+    <span>a</span>
+    <span class="info_job">Full-stack Software Engineer</span>
+    <span>working with</span>
+    <span style="display: block; overflow: hidden; height: 35px">
+      <div appStackCarousel>
+        <div *ngFor="let icon of icons">
+          <div style="display: flex; gap: 5px; align-items: center">
+            <i nz-icon [nzType]="'ng-zorro:' + icon"></i>
+            <span>{{ icon }}</span>
+          </div>
+        </div>
+      </div>
+    </span>
   </div>
   <app-primary-button
     [text]="'About Me'"

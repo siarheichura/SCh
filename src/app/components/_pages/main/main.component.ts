@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core'
+import {SKILL_STACK_SVG} from "@shared/constants/icons.constant";
 
 @Component({
   selector: 'app-main',
@@ -7,6 +8,8 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core'
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class MainComponent implements OnInit {
+  icons: string[] = SKILL_STACK_SVG.map(icon => icon.name)
+
   constructor() {}
 
   ngOnInit(): void {}

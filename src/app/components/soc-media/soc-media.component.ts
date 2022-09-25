@@ -8,7 +8,8 @@ import {SOC_MEDIA_SVG} from "@shared/constants/icons.constant";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SocMediaComponent implements OnInit {
-  icons: {name: string, url: string}[] = SOC_MEDIA_SVG.map(icon => ({
+  icons: {name: string, url: string}[] =
+    SOC_MEDIA_SVG.map(icon => ({
     name: `ng-zorro:${icon.name}`,
     url: icon.url
   }))

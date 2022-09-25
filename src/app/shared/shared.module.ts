@@ -5,11 +5,13 @@ import { RouterModule } from '@angular/router'
 import { NgZorroModule } from './ng-zorro.module';
 import { BackgroundIconDirective } from './directives/background-icon.directive'
 import { PrimaryButtonComponent } from '@shared/components/primary-button/primary-button.component'
+import {StackCarouselDirective} from "@shared/directives/stack-carousel.directive";
 
 @NgModule({
   declarations: [
     PrimaryButtonComponent,
-    BackgroundIconDirective
+    BackgroundIconDirective,
+    StackCarouselDirective
   ],
   imports: [
     ReactiveFormsModule,
@@ -24,7 +26,8 @@ import { PrimaryButtonComponent } from '@shared/components/primary-button/primar
     FormsModule,
     NgZorroModule,
     BackgroundIconDirective,
-    PrimaryButtonComponent
+    PrimaryButtonComponent,
+    StackCarouselDirective
   ],
   providers: []
 })
