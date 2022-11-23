@@ -1,4 +1,7 @@
+@import "src/variables";
+
 :host {
+
   .info {
     display: flex;
     flex-direction: column;
@@ -32,6 +35,12 @@
 
     &_job {
       font-weight: 800;
+      color: $secondary-color;
+    }
+
+    &_buttons {
+      display: flex;
+      align-items: center;
     }
   }
 }

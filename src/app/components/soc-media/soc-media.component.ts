@@ -1,5 +1,5 @@
-import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
-import {SOC_MEDIA_SVG} from "@shared/constants/icons.constant";
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core'
+import { SOC_MEDIA_SVG } from '@constants/icons.constant'
 
 @Component({
   selector: 'app-soc-media',
@@ -8,15 +8,17 @@ import {SOC_MEDIA_SVG} from "@shared/constants/icons.constant";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SocMediaComponent implements OnInit {
-  icons: {name: string, url: string}[] =
+  icons: { name: string, url: string }[] =
     SOC_MEDIA_SVG.map(icon => ({
-    name: `ng-zorro:${icon.name}`,
-    url: icon.url
-  }))
+      name: `ng-zorro:${icon.name}`,
+      url: icon.url
+    }))
 
-  constructor() {}
+  constructor() {
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
   onIconClick(url: string): void {
     window.open(url, '_blank')

@@ -1,17 +1,68 @@
 :host {
-  button {
-    padding: 7px 15px;
-    border: none;
-    background-color: var(--secondary-color);
-    font-size: 18px;
-    font-family: var(--spartan-font);
-    font-weight: 700;
-    letter-spacing: 4px;
-    transition: 0.3s;
-    cursor: pointer;
+  @import "src/variables";
 
-    &:hover {
-      background: #d81010;
-    }
+  button {
+    padding: 15px 50px;
+    background-color: transparent;
+    border: 2px solid $secondary-color;
+    //color: black;
   }
 }
+
+//:host {
+//  //button {
+//  //  padding: 7px 15px;
+//  //  border: none;
+//  //  background-color: var(--secondary-color);
+//  //  font-size: 18px;
+//  //  font-family: var(--spartan-font);
+//  //  font-weight: 700;
+//  //  letter-spacing: 4px;
+//  //  transition: 0.3s;
+//  //  cursor: pointer;
+//  //
+//  //
+//  //
+//  //  &:hover {
+//  //
+//  //    background: #d81010;
+//  //  }
+//  //}
+//
+//  .slide:hover,
+//  .slide:focus {
+//    //box-shadow: inset 6.5em 0 0 0 var(--hover);
+//    box-shadow: inset 10.5em 0 0 0 var(--secondary-color);
+//  }
+//
+//  $colors: (
+//    slide: #e24728,
+//  );
+//
+//  @each $button, $color in $colors {
+//    .#{$button} {
+//      --color: #{$color};
+//      --hover: #{adjust-hue($color, 45deg)};
+//    }
+//  }
+//
+//  button {
+//    color: var(--color);
+//    transition: 0.2s;
+//
+//    &:hover,
+//    &:focus {
+//      border-color: var(--hover);
+//      color: #fff;
+//    }
+//  }
+//
+//  button {
+//    background: none;
+//    border: 2px solid;
+//    font: inherit;
+//    line-height: 1;
+//    margin: 0.5em;
+//    padding: 1em 2em;
+//  }
+//}

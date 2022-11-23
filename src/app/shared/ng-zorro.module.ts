@@ -81,4 +81,5 @@ import { NzDropDownModule } from 'ng-zorro-antd/dropdown'
     { provide: NZ_ICONS, useValue: icons }
   ]
 })
-export class NgZorroModule {}
+export class NgZorroModule {
+}
