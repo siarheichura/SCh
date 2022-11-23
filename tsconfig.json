@@ -5,9 +5,12 @@
     "paths": {
       "@components/*": ["app/components/*"],
       "@pages/*": ["app/components/_pages/*"],
-      "@services/*": ["app/services/*"],
       "@shared/*": ["app/shared/*"],
-      "@store/*": ["app/store/*"]
+      "@services/*": ["app/services/*"],
+      "@constants/*": ["app/constants/*"],
+      "@interfaces/*": ["app/interfaces/*"],
+      "@directives/*": ["app/directives/*"],
+      "@enums/*": ["app/enums/*"],
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

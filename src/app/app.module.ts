@@ -6,16 +6,20 @@ import { AppRoutingModule } from './app-routing.module'
 import { SharedModule } from '@shared/shared.module'
 
 import { AppComponent } from './app.component'
-import { LayoutComponent } from '@components/layout/layout.component';
-import { MainComponent } from '@components/_pages/main/main.component';
-import { SocMediaComponent } from '@components/soc-media/soc-media.component';
+import { MainComponent } from '@components/_pages/main/main.component'
+import { SocMediaComponent } from '@components/soc-media/soc-media.component'
+import { ContactComponent } from '@components/_pages/contact/contact.component'
+import { AboutComponent } from '@components/_pages/about/about.component'
+import { PortfolioComponent } from '@components/_pages/portfolio/portfolio.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
     MainComponent,
-    SocMediaComponent
+    SocMediaComponent,
+    ContactComponent,
+    AboutComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -27,4 +31,5 @@ import { SocMediaComponent } from '@components/soc-media/soc-media.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}

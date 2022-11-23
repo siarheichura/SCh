@@ -1,4 +1,4 @@
-import { IconConfigI, IconSvgI } from '@shared/interfaces/Icon.interface'
+import { IconConfigI, IconSvgI } from '@shared/../interfaces/Icon.interface'
 
 export const BACKGROUND_ICON_CONFIGS: IconConfigI[] = [
   { icon: 'ng-zorro:cat', top: '80%', left: '10%', rotate: '-10deg', xx: 1, xy: -1 },

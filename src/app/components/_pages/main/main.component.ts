@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core'
-import {SKILL_STACK_SVG} from "@shared/constants/icons.constant";
+import { SKILL_STACK_SVG } from '@constants/icons.constant'
 
 @Component({
   selector: 'app-main',
@@ -10,11 +10,9 @@ import {SKILL_STACK_SVG} from "@shared/constants/icons.constant";
 export class MainComponent implements OnInit {
   icons: string[] = SKILL_STACK_SVG.map(icon => icon.name)
 
-  constructor() {}
+  constructor() {
+  }
 
-  ngOnInit(): void {}
-
-  onButtonCLick(): void {
-    console.log('AboutMe Button clicked!')
+  ngOnInit(): void {
   }
 }

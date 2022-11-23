@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Input, OnInit } from '@angular/core'
 
 import { IconService } from '@services/icon.service'
-import { IconConfigI } from '@shared/interfaces/Icon.interface'
+import { IconConfigI } from '@shared/../interfaces/Icon.interface'
 
 @Directive({
   selector: '[appBackgroundIcon]'
@@ -9,7 +9,8 @@ import { IconConfigI } from '@shared/interfaces/Icon.interface'
 export class BackgroundIconDirective implements OnInit {
   @Input() config: IconConfigI
 
-  constructor(private el: ElementRef, private iconService: IconService) {}
+  constructor(private el: ElementRef, private iconService: IconService) {
+  }
 
   ngOnInit() {
     this.setElement()

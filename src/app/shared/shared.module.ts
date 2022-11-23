@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
-import { NgZorroModule } from './ng-zorro.module';
-import { BackgroundIconDirective } from './directives/background-icon.directive'
+import { NgZorroModule } from './ng-zorro.module'
+import { BackgroundIconDirective } from '@directives/background-icon.directive'
 import { PrimaryButtonComponent } from '@shared/components/primary-button/primary-button.component'
-import {StackCarouselDirective} from "@shared/directives/stack-carousel.directive";
+import { StackCarouselDirective } from '@directives/stack-carousel.directive'
 
 @NgModule({
   declarations: [
@@ -31,4 +31,5 @@ import {StackCarouselDirective} from "@shared/directives/stack-carousel.directiv
   ],
   providers: []
 })
-export class SharedModule {}
+export class SharedModule {
+}
